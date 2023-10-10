@@ -1,0 +1,17 @@
+{
+  "name": "websocket-server",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "run:dev": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+}
